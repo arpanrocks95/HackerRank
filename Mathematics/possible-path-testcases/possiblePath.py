@@ -1,7 +1,4 @@
-#!/bin/python3
 
-import os
-import sys
 
 # Complete the solve function below.
 def gcd (a,b) :
@@ -20,7 +17,7 @@ def solve(a, b, x, y):
         return "NO"
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
 
     t = int(input())
 
@@ -37,6 +34,4 @@ if __name__ == '__main__':
 
         result = solve(a, b, x, y)
 
-        fptr.write(result + '\n')
-
-    fptr.close()
+        print(result)
